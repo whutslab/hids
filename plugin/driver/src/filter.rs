@@ -1,0 +1,1 @@
+pub const EXE_WHITELIST: &'static [&'static str] = &["/usr/bin/lpstat","/bin/sed","/usr/libexec/pk-command-not-found","/usr/bin/chronyc","/usr/bin/as","/usr/bin/ld.bfd","/usr/bin/gcc","/usr/lib64/sa/sa1","/usr/bin/date","/usr/lib64/sa","/usr/bin/test","/usr/sbin/chronyd"];

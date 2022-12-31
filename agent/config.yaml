@@ -1,0 +1,7 @@
+plugins: [{name: hids_driver,version: 1.5.0.0,path: /etc/hids/plugin/driver/driver,sha256: 5713168e4ad5afb1d5aa015da2c67ddb0d8d056af33218daa793e8de541baf3a}]
+
+traffic: {app: gulp,args: [-i,enp0s5,-r,1,-C,1,-o,pcapfiles/,-n,honey,-t]}
+
+remoteserver: {baseurl: http://10.211.55.14:9000}
+
+data: {docker_reglist: [ubuntu],docker_volume_path_list: [/var/lib/docker/volumes/],target_fileserver: http://http://10.211.55.14:9000}
